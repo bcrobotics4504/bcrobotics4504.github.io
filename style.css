@@ -4,7 +4,7 @@ body {
 }
 @font-face {
   font-family: 'edo';
-  src: url('edo.ttf') format('truetype');
+  src: url('fonts/edo.ttf') format('truetype');
 }
 
 #splash {
