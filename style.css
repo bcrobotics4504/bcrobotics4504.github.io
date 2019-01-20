@@ -2,7 +2,24 @@ body {
   font-family: arial, sans-serif;
   color: #ffffff;
 }
+@font-face {
+  font-family: 'edo';
+  src: url('fonts/edo.ttf') format('truetype');
+}
 
 #splash {
   text-align: center;
+}
+
+#splash h1{
+  font-family: 'edo';
+  font-size: 7.5em;
+  line-height: 1;
+  transform: translate(0em, .25em);
+}
+
+#splash h2 {
+  font-family: 'arial', sans-serif;
+  font-size: 3em;
+  transform: translate(0em, 4.5em);
 }

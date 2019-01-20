@@ -7,12 +7,13 @@
     <link rel="stylesheet" type="text/css" href="fullpage.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" src="fullpage.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
   </head>
 
   <body>
     <div id="fullpage">
     	<div id="splash" class="section">
-        <h1>BLOUNT COUNTY ROBOTICS</h1>
+        <h1>BLOUNT COUNTY <br> ROBOTICS</h1>
         <h2>FRC TEAM 4504</h2>
       </div>
     	<div class="section">Some section</div>
@@ -25,8 +26,8 @@
       var myFullpage = new fullpage('#fullpage', {
       	//Navigation
       	menu: '#menu',
-      	lockAnchors: false,
-      	anchors:['splashScreen'],
+      	lockAnchors: true,
+      	anchors:['splash'],
       	navigation: false,
       	navigationPosition: 'right',
       	navigationTooltips: ['firstSlide', 'secondSlide'],
