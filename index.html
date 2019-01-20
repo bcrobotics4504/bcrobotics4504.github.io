@@ -13,6 +13,7 @@
   <body>
     <div id="fullpage">
     	<div id="splash" class="section">
+        <div class="front">
         <div class="header">
           <table>
           <td>HOME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MEDIA</td>
@@ -20,7 +21,13 @@
           <td>SPONSORS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CONTACT</td>
           </table>
         </div>
+        <div class="bcr">
         <h1>BLOUNT COUNTY<br>ROBOTICS</h1>
+        </div>
+        </div>
+        <video id="background" loop muted data-autoplay>
+          <source src="splash.mp4" type="video/mp4">
+        </video>
       </div>
     	<div class="section">Some section</div>
     	<div class="section">Some section</div>
@@ -33,7 +40,7 @@
       	//Navigation
       	menu: '#menu',
       	lockAnchors: true,
-      	anchors:['splash'],
+      	anchors:['splash-page'],
       	navigation: false,
       	navigationPosition: 'right',
       	navigationTooltips: ['firstSlide', 'secondSlide'],
