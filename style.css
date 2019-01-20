@@ -2,24 +2,51 @@ body {
   font-family: arial, sans-serif;
   color: #ffffff;
 }
+
+@font-face {
+  font-family: 'bearpaw';
+  src: url('fonts/bearpaw.ttf') format('truetype');
+}
 @font-face {
   font-family: 'edo';
   src: url('fonts/edo.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'lintsec';
+  src: url('fonts/lintsec.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'trenu';
+  src: url('fonts/trenu.ttf') format('truetype');
 }
 
 #splash {
   text-align: center;
 }
 
-#splash h1{
-  font-family: 'edo';
-  font-size: 7.5em;
-  line-height: 1;
-  transform: translate(0em, .25em);
-}
 
 #splash h2 {
   font-family: 'arial', sans-serif;
-  font-size: 3em;
-  transform: translate(0em, 4.5em);
+  font-size: 2em;
+}
+
+#splash h1{
+  font-family: 'lintsec';
+  font-size: 7.5em;
+  line-height: 1;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 5%;
+}
+
+.header table {
+  margin: 0 auto;
+  width: 75%;
+  height: auto;
+  text-align: center;
+  table-layout: fixed;
 }
