@@ -37,18 +37,18 @@ body {
 
 #splash img {
   width: auto;
-  height: 75%;
+  height: 7.5vw;
 }
 
 #splash h2 {
   font-family: 'glacier';
   font-weight: bold;
-  font-size: 1.75em;
+  font-size: 1.75vw;
 }
 
 #splash h1 {
-  font-family: 'boston';
-  font-size: 7.5em;
+  font-family: 'lintsec';
+  font-size: 7.5vw;
   line-height: 1;
 }
 
