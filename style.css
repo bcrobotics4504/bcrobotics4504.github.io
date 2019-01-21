@@ -22,12 +22,13 @@ body {
 
 #splash {
   text-align: center;
+  overflow: hidden;
 }
 
 
 #splash h2 {
   font-family: 'arial', sans-serif;
-  font-size: 2em;
+  font-size: 1.75em;
 }
 
 #splash h1 {

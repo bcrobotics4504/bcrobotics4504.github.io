@@ -16,9 +16,9 @@
         <div class="front">
         <div class="header">
           <table>
-          <td>HOME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MEDIA</td>
-          <td><h2>LOGO HERE</h2></td>
-          <td>SPONSORS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CONTACT</td>
+          <td><h2>HOME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SPONSORS</h2></td>
+          <td>LOGO HERE</td>
+          <td><h2>CONTACT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MEDIA</h2></td>
           </table>
         </div>
         <div class="bcr">
@@ -37,7 +37,6 @@
 
     <script type="text/javascript">
       var myFullpage = new fullpage('#fullpage', {
-      	//Navigation
       	menu: '#menu',
       	lockAnchors: true,
       	anchors:['splash-page'],
@@ -47,8 +46,6 @@
       	showActiveTooltip: false,
       	slidesNavigation: false,
       	slidesNavPosition: 'bottom',
-
-      	//Scrolling
       	css3: true,
       	scrollingSpeed: 700,
       	autoScrolling: false,
@@ -75,16 +72,12 @@
       	touchSensitivity: 15,
       	normalScrollElementTouchThreshold: 5,
       	bigSectionsDestination: null,
-
-      	//Accessibility
       	keyboardScrolling: true,
       	animateAnchor: true,
       	recordHistory: true,
-
-      	//Design
       	controlArrows: true,
       	verticalCentered: true,
-      	sectionsColor : ['#002300', '#000000', '#000000', '#000000'],
+      	sectionsColor : ['#000000', '#000000', '#000000', '#000000'],
       	paddingTop: '3em',
       	paddingBottom: '10px',
       	fixedElements: '#header, .footer',
@@ -92,12 +85,9 @@
       	responsiveHeight: 0,
       	responsiveSlides: false,
       	parallax: false,
-      	parallaxOptions: {type: 'reveal', percentage: 75, property: 'translate'},
-
-      	//Custom selectors
+      	parallaxOptions: {type: 'cover', percentage: 50, property: 'translate'},
       	sectionSelector: '.section',
       	slideSelector: '.slide',
-
       	lazyLoading: true,
 
       	//events
