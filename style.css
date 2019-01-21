@@ -1,5 +1,4 @@
 body {
-  font-family: arial, sans-serif;
   color: #ffffff;
   font-family: 'glacier';
 }
@@ -26,19 +25,29 @@ body {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'boston';
+  src: url('fonts/boston_traffic.ttf') format('truetype');
+}
+
 #splash {
   text-align: center;
   overflow: hidden;
 }
 
+#splash img {
+  width: auto;
+  height: 75%;
+}
+
 #splash h2 {
   font-family: 'glacier';
-  font-size: 1.75em;
   font-weight: bold;
+  font-size: 1.75em;
 }
 
 #splash h1 {
-  font-family: 'lintsec';
+  font-family: 'boston';
   font-size: 7.5em;
   line-height: 1;
 }
