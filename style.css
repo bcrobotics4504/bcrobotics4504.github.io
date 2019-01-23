@@ -4,11 +4,6 @@ body {
 }
 
 @font-face {
-  font-family: 'lintsec';
-  src: url('fonts/lintsec.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'glacier';
   src: url('fonts/gi-regular.otf') format('opentype');
 }
@@ -23,11 +18,6 @@ body {
   font-family: 'glacier';
   src: url('fonts/gi-bold.otf') format('opentype');
   font-weight: bold;
-}
-
-@font-face {
-  font-family: 'boston';
-  src: url('fonts/boston_traffic.ttf') format('truetype');
 }
 
 #splash {
@@ -47,7 +37,8 @@ body {
 }
 
 #splash h1 {
-  font-family: 'lintsec';
+  font-family: 'glacier';
+  font-weight: bold;
   font-size: 7.5vw;
   line-height: 1;
 }
