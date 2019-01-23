@@ -1,6 +1,7 @@
 body {
   color: #ffffff;
   font-family: 'glacier';
+    font-size: 1.5vmax;
 }
 
 @font-face {
@@ -32,15 +33,12 @@ body {
 
 #splash h2 {
   font-family: 'glacier';
-  font-weight: bold;
   font-size: 1.75vw;
 }
 
 #splash h1 {
   font-family: 'glacier';
-  font-weight: bold;
   font-size: 7.5vw;
-  line-height: 1;
 }
 
 #background {
@@ -95,5 +93,24 @@ video::-webkit-media-controls {
   position: absolute;
   z-index: 2;
   width: 100%;
-  top: 30%;
+  top: 25%;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer table {
+  margin: 0 auto;
+  width: 75%;
+  height: auto;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.footer img {
+  width: auto;
+  height: 15vw;
 }
