@@ -100,7 +100,7 @@ video::-webkit-media-controls {
   text-align: center;
   width: 100%;
   height: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
 }
 
 .offset table {
@@ -111,11 +111,31 @@ video::-webkit-media-controls {
   table-layout: fixed;
 }
 
-.offset img {
+.offset p {
+  text-align: justify;
+}
+
+img[src="first-logo.png"] {
   width: auto;
   height: 20vw;
 }
 
-.offset p {
-  text-align: justify;
+img[src="deep-space.png"] {
+  width: auto;
+  height: 25vw;
+}
+
+#resp-iframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+#resp-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
