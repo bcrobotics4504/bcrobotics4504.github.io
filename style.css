@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   color: #ffffff;
   background-color: #212121;
@@ -139,3 +140,147 @@ nav img {
     display: none;
   }
 }
+=======
+body {
+  color: #ffffff;
+  background-color: #212121;
+  font-family: 'glacier';
+  font-size: 1.5vw;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'glacier';
+  src: url('fonts/gi-regular.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'glacier';
+  src: url('fonts/gi-italic.otf') format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'glacier';
+  src: url('fonts/gi-bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: .75vw;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a9a9a9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #808080;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+header h1 {
+  position: relative;
+  font-size: 10vw;
+  margin: -20vw 0;
+  z-index: 2;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('team.jpg') black no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  header video {
+    display: none;
+  }
+}
+
+nav img {
+  width: 10vw;
+  height: auto;
+}
+
+.navbar-brand img{
+  width: 20vw;
+  margin-right: -14vw;
+}
+
+.item {
+  margin: 0 4vw;
+  color: #ffffff;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.item:hover {
+  color: #cccccc;
+}
+
+.navbar {
+  padding-top: 2.5vw;
+}
+
+.btn {
+  padding: 0;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler-icon {
+  font-size: 7vw;
+}
+
+@media (max-width: 991.98px) {
+  header h1 {
+    font-size: 11.75vw;
+    margin: -45vw 0;
+  }
+
+  span {
+    padding-top: 25vw;
+  }
+}
+>>>>>>> a827eb96e0dac3784f410d3ff480a306a9706ce9
