@@ -103,6 +103,7 @@ nav img {
 
 .navbar {
   padding-top: 2.5vw;
+  z-index: 9999;
 }
 
 .btn {
@@ -137,5 +138,11 @@ nav img {
 
   header video {
     display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav-link {
+    font-size: 7vw;
   }
 }
