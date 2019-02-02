@@ -118,6 +118,49 @@ nav img {
   font-size: 7vw;
 }
 
+.offset {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 5% 0;
+}
+
+.offset table {
+  margin: 0 auto;
+  width: 75%;
+  height: auto;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.offset p {
+  text-align: justify;
+}
+
+img[src="first-logo.png"] {
+  width: auto;
+  height: 25vw;
+}
+
+img[src="deep-space.png"] {
+  width: auto;
+  height: 30vw;
+}
+
+#resp-iframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+#resp-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 991.98px) {
   header h1 {
     font-size: 11.5vw;
