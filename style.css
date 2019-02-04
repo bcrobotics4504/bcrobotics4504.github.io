@@ -1,6 +1,6 @@
 body {
   color: #ffffff;
-  background-color: #212121;
+  background-color: #050505;
   font-family: 'glacier';
   font-size: 1.5vw;
   overflow-x: hidden;
@@ -142,6 +142,11 @@ img[src="first-logo.png"] {
   height: 25vw;
 }
 
+.photo {
+  background-color: #101010;
+  padding: 20% 0;
+}
+
 img[src="deep-space.png"] {
   width: auto;
   height: 30vw;
@@ -161,10 +166,39 @@ img[src="deep-space.png"] {
   width: 100%;
   height: 100%;
 }
+
+.bottom {
+  background-color: #000000;
+  padding: 2% 0;
+  font-size: 1vw;
+}
+
+.bottom table{
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+
 @media (max-width: 991.98px) {
+  body {
+    font-size: 2vw;
+  }
+
   header h1 {
     font-size: 11.5vw;
     margin-top: -30vw;
+  }
+
+  h2 {
+    font-size: 5vw;
   }
 
   nav.navbar {
