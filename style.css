@@ -1,7 +1,13 @@
 body {
   color: #ffffff;
+  background-color: #050505;
   font-family: 'glacier';
+<<<<<<< HEAD
   font-size: 1.5vmax;
+=======
+  font-size: 1.5vw;
+  overflow-x: hidden;
+>>>>>>> 013036e79cdd7d24fdb6ef21ebe35e42f3c1473d
 }
 
 @font-face {
@@ -23,6 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar {
+<<<<<<< HEAD
   width: .5vw;
 }
 
@@ -53,6 +60,106 @@ h1, h2, h3 {
 .top {
   height: 90vh;
   background-color: #212121;
+=======
+  width: .75vw;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a9a9a9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #808080;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+header h1 {
+  position: relative;
+  font-size: 10vw;
+  margin: -20vw 0;
+  z-index: 2;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 1;
+}
+
+nav img {
+  width: 15vw;
+  height: auto;
+}
+
+.navbar-brand img{
+  width: 25vw;
+  margin-right: -14vw;
+}
+
+.item {
+  margin: 0 4vw;
+  color: #ffffff;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.item:hover {
+  color: #cccccc;
+}
+
+.navbar {
+  padding-top: 2.5vw;
+  z-index: 9999;
+}
+
+.btn {
+  padding: 0;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler-icon {
+  font-size: 7vw;
+}
+
+.offset {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 5% 0;
+>>>>>>> 013036e79cdd7d24fdb6ef21ebe35e42f3c1473d
 }
 
 .top table{
@@ -68,7 +175,21 @@ h1, h2, h3 {
 
 .top img {
   width: auto;
+<<<<<<< HEAD
   height: 7.5vw;
+=======
+  height: 25vw;
+}
+
+.photo {
+  background-color: #101010;
+  padding: 20% 0;
+}
+
+img[src="deep-space.png"] {
+  width: auto;
+  height: 30vw;
+>>>>>>> 013036e79cdd7d24fdb6ef21ebe35e42f3c1473d
 }
 
 .bcr {
@@ -79,4 +200,78 @@ h1, h2, h3 {
 .bcr h1 {
   text-align: center;
   font-size: 7.5vmax;
+}
+
+.bottom {
+  background-color: #000000;
+  padding: 2% 0;
+  font-size: 1vw;
+}
+
+.bottom table{
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+
+@media (max-width: 991.98px) {
+  body {
+    font-size: 2.75vw;
+  }
+
+  .offset table {
+    width: 92.5%;
+  }
+
+  header h1 {
+    font-size: 11.5vw;
+    margin-top: -30vw;
+  }
+
+  nav img {
+    width: 12.5vw;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  nav.navbar {
+    padding-top: 10vw;
+  }
+
+  header {
+    background: url('temp_pic.jpg') black no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  header video {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav-link {
+    font-size: 7vw;
+  }
+
+  nav.navbar {
+    padding-top: 15vw;
+  }
+
+  header h1 {
+    margin-top: -45vw;
+  }
 }
