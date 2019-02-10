@@ -40,13 +40,15 @@ body {
   background: #808080;
 }
 
-h1, h2, h3 {
-  font-weight: bold;
+
+h2 {
+  font-size: 3.5vw;
 }
 
 header h1 {
   position: relative;
   font-size: 10vw;
+  font-weight: bold;
   margin: -20vw 0;
   z-index: 2;
 }
@@ -122,7 +124,7 @@ nav img {
   text-align: center;
   width: 100%;
   height: 100%;
-  padding: 5% 0;
+  padding: 5vw 0;
 }
 
 .section table {
@@ -176,8 +178,11 @@ img[src="deep-space.png"] {
 
 .bottom {
   background-color: #000000;
-  padding: 5% 0;
-  font-size: 1vw;
+  padding: 5vw 0;
+  font-size: 2vw;
+  border-style: solid;
+  border-color: rgba(50,50,50,.1);
+  border-width: .5vw 0 0 0;
 }
 
 .bottom td {
@@ -186,7 +191,7 @@ img[src="deep-space.png"] {
 }
 
 .bottom table {
-  width: 85%;
+  width: 85vw;
   table-layout: fixed;
 }
 
@@ -196,8 +201,39 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: #808080;
+}
+
+.sponsors {
+  padding: 2.5vw 0;
+}
+
+.sponsors table {
+  margin: 2.5vw auto;
+  width: 90vw;
+  table-layout: fixed;
+}
+
+
+img[src="denso-logo.png"] {
+  height: auto;
+  width: 20vw;
+}
+
+img[src="arconic-logo.png"] {
+  height: auto;
+  width: 20vw;
+}
+
+img[src="mcs-logo.png"] {
+  height: auto;
+  width: 20vw;
+}
+
+img[src="northrop-logo.png"] {
+  height: auto;
+  width: 20vw;
 }
 
 @media (max-width: 991.98px) {
