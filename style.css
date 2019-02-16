@@ -176,21 +176,18 @@ img[src="deep-space.png"] {
   height: 100%;
 }
 
-.bottom {
-  background-color: #000000;
+.links {
+  background-color: #151515;
   padding: 5vw 0;
   font-size: 2vw;
-  border-style: solid;
-  border-color: rgba(50,50,50,.1);
-  border-width: .5vw 0 0 0;
 }
 
-.bottom td {
+.links td {
   text-align: left;
   padding: .5vw 0;
 }
 
-.bottom table {
+.links table {
   width: 85vw;
   table-layout: fixed;
 }
@@ -234,6 +231,16 @@ img[src="mcs-logo.png"] {
 img[src="northrop-logo.png"] {
   height: auto;
   width: 20vw;
+}
+
+img[src="bcr4504.png"] {
+  height: auto;
+  width: 50vw;
+}
+
+.bottom {
+  background-color: #202020;
+  padding: 5vw 0;
 }
 
 @media (max-width: 991.98px) {

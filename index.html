@@ -22,16 +22,13 @@
   </head>
 
   <body>
-    <!--
-    1. instagram embedded post:
-        -need to pick one good post for main page
-        -live feed can go in "media" page
-        -snapwidget or pixlee live feeds
 
-    2. need vibrant background pictures from build season
+    <script>
+      window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+      }
+    </script>
 
-    3. color/theme
-    -->
     <header>
       <video autoplay="autoplay" muted="muted" loop="loop">
         <source src="splash.mp4" type="video/mp4">
@@ -48,11 +45,11 @@
 </div>
 
   <div class="mx-auto collapse navbar-collapse"  id="collapsibleNavbar">
-    <a class="nav-link item my-auto" href="index.html">HOME</a>
-    <a class="nav-link item my-auto" href="sponsors.html">SPONSORS</a>
+    <a class="nav-link item my-auto" href="">NEWS</a>
+    <a class="nav-link item my-auto" href="#sponsors">SPONSORS</a>
     <span class="item mx-auto my-auto d-none d-md-block"><img src="bcr-logo.png"/></span>
-    <a class="nav-link item my-auto" href="contact.html">CONTACT</a>
-    <a class="nav-link item my-auto" href="media.html">MEDIA</a>
+    <a class="nav-link item my-auto" href="#contact">CONTACT</a>
+    <a class="nav-link item my-auto" href="#media">MEDIA</a>
   </div>
 
 </nav>
@@ -78,13 +75,13 @@
       </table>
     </div>
 
-  <div class="section sm-section photo">
+  <a name="media"><div class="section sm-section photo">
     <table>
       <td>
-        <p>Blount County Robotics (#4504) is a FIRST robotics team that includes student from Maryville, Alcoa, and William Blount. Our team focus is to develop innovative technology initiatives and business operations within the community, as well as preparing students for opportunities in engineering and robotics in their futures.</p>
+        <p>Blount County Robotics (Team #4504) is a FIRST robotics team that includes student from Maryville, Alcoa, and William Blount. Our team focus is to develop innovative technology initiatives and business operations within the community, as well as preparing students for opportunities in engineering and robotics in their futures.</p>
       </td>
     </table>
-  </div>
+  </div></a>
 
     <div class="section sm-section">
     <table>
@@ -99,47 +96,47 @@
     </table>
   </div>
 
-  <div class="section bottom">
+  <div class="section links">
   <table>
     <tr>
       <td colspan=3>
-        <h2>Links and Resources</h2>
+        <a name="contact"><h2>Links and Resources</h2></a>
       </td>
     </tr>
 
     <tr>
       <td>
-        <a href=''>Maryville City Schools</a>
+        <a href='https://www.maryville-schools.org/' target="_blank">Maryville City Schools</a>
       </td>
       <td>
         <a href=''>Contact Us</a>
       </td>
       <td>
-        <a href=''>Maryville High School</a>
+        <a href='https://mhs.maryville-schools.org/' target="_blank">Maryville High School</a>
       </td>
     </tr>
 
     <tr>
       <td>
-        <a href=''>FIRST Robotics</a>
+        <a href='https://www.firstinspires.org/robotics/frc' target="_blank">FIRST Robotics</a>
       </td>
       <td>
         <a href=''>Team Info</a>
       </td>
       <td>
-        <a href=''>Alcoa High School</a>
+        <a href='https://ahs.alcoaschools.net/' target="_blank">Alcoa High School</a>
       </td>
     </tr>
 
     <tr>
       <td>
-        <a href=''>Our Slack</a>
+        <a href='' target="_blank">Join the Slack</a>
       </td>
       <td>
-        <a href=''>Media</a>
+        <a href='https://www.instagram.com/bcrobotics4504/' target="_blank">Instagram</a>
       </td>
       <td>
-        <a href=''>William Blount High School</a>
+        <a href='http://www.wbgovs.com/govs2/' target="_blank">William Blount High School</a>
       </td>
     </tr>
 
@@ -147,7 +144,7 @@
 </div>
 
 <div class="section sponsors">
-  <h2>Our Sponsors</h2>
+  <a name="sponsors"><h2>Our Sponsors</h2></a>
   <table>
     <td>
       <img src="denso-logo.png" alt="Denso" />
@@ -165,8 +162,11 @@
 </div>
 
 <div class="section bottom">
-  Social media, slack, logo,
-  Copyright, address(?)
+  <table>
+    <td>
+      <img src="bcr4504.png" alt="logo"/>
+    </td>
+  </table>
 </div>
 
   </body>
